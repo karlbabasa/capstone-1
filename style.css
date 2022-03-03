@@ -29,7 +29,6 @@ body {
 
 .landing1 {
 	padding: 30px;
-	padding-left: 50px;
 }
 
 .landing1 h5 {
@@ -40,6 +39,11 @@ body {
 .landing1 h1 {
 	margin: 0;
 	font-size: 9rem;
+}
+
+.landing1 h2 {
+	margin: 0;
+	font-size: 5rem;
 }
 
 .landing1 p {
