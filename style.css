@@ -1,0 +1,180 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body {
+	background: linear-gradient(180deg, rgba(173,232,244,1) 0%, rgba(202,240,248,0) 18%);
+	font-family: 'Hubballi', cursive;
+}
+
+/*navbar*/
+.navbar {
+	padding-bottom: 25px;
+}
+.navbar ul li {
+	margin: 0 10px;
+	font-size: 1.5rem;
+}
+
+.navbar .logo {
+	font-size: 2rem;
+	border-radius: 25px;
+}
+/*end of navbar*/
+
+/*landing page*/
+
+.landing1 {
+	padding: 30px;
+	padding-left: 50px;
+}
+
+.landing1 h5 {
+	font-size: 3rem;
+	margin: 0;
+}
+
+.landing1 h1 {
+	margin: 0;
+	font-size: 9rem;
+	padding-left: 25px;
+}
+
+.landing1 p {
+	font-size: 2rem;
+}
+ /*end of landing page*/
+
+/*carousel*/
+
+#project-page h2 {
+	margin: 50px;
+	font-weight: 600;
+}
+
+.carousel-caption {
+	background-color: #ade8f4;
+	border-radius: 20px;
+	padding: 0;
+}
+
+.carousel-caption h5{
+	font-size: 50px;
+	color: black;
+}
+
+.carousel-caption p{
+	font-size: 25px;
+	color: black;
+}
+
+.carousel-inner img {
+	border-radius: 10px;
+}
+
+.carousel-indicators {
+	margin: 0;
+	z-index: -1;
+}
+
+.carousel-indicators li {
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    background-color: #48cae4;
+}
+
+.carousel-inner img {
+	width: 1200px;
+}
+/*end of carousel*/
+
+/*about*/
+.aboutText {
+	border-right: 3px solid #ade8f4;
+}
+
+#aboutCont li {
+	list-style-type: none;
+}
+
+
+.social-media li{
+	display: inline;
+}
+
+.social-media li a {
+	font-size: 	50px;
+	padding: 0 20px;
+	color: #48cae4;
+}
+
+#aboutCont img {
+	border-radius: 6px;
+}
+/*end of about*/
+
+/*contact*/
+
+/*end of contact*/
+#contactCont p {
+	font-size: 	2rem;
+	margin-top: 50px;
+}
+
+#contactCont label {
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+#contactCont button	{
+	width: 200px;
+	margin-bottom: 100px;
+	background: #ade8f4;
+	border: none;
+	font-size: 20px;
+}
+
+#contactCont input {
+	border: none;
+	border-bottom: 2px solid #ade8f4;
+	border-radius: 0;
+
+}
+
+#contactCont textarea {
+	border: none;
+	border-bottom: 2px solid #ade8f4;
+	border-radius: 0;
+
+}
+
+#contactCont input:hover {
+	border-bottom: 2px solid #48cae4;
+}
+
+#contactCont textarea:hover {
+	border-bottom: 2px solid #48cae4;
+}
+
+#contactCont button:hover	 {
+	background: #48cae4;
+}
+/*footer*/
+footer {
+	background: linear-gradient(0deg, rgba(173,232,244,1) 0%, rgba(202,240,248,0) 90%);
+
+}
+
+footer .head {
+font-weight: bold;
+font-size: 	20px;
+}
+
+footer li{
+	list-style: none;
+}
+/*end of footer*/
